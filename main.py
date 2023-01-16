@@ -13,7 +13,7 @@ pygame.display.set_caption("Limpurb Remastered")
 bg_color = [0, 0, 0]
 
 player_size = 30
-player_pos = [(width - player_size)/2, (height - player_size)/2]
+player_pos = [int((width - player_size)/2), int((height - player_size)/2)]
 player_color = [0, 0, 255]
 player_speed = 0.1
 
